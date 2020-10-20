@@ -1,0 +1,29 @@
+@import "bootstrap/scss/bootstrap";
+
+.container {
+  width: 500px;
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+#main {
+  font-size: 1.5em;
+  font-family: 'Roboto Mono', monospace;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+   &:hover {
+     background-color: grey;
+     color: white;
+     text-decoration: none;
+     border-radius: 12px;
+     padding: 10px;
+    }
+}
+
+ul {
+  list-style-type: none
+}
